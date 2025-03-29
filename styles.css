@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+:root {
+            background-color: rgb(135, 206, 235);
+        }
+
+        /* Article Styling */
+article p:first-child {
+	background-color: black;
+	color: white;
+	/* padding: 10px; */
+}
+
+article p:nth-child(2) {
+	color: inherit; /* Standard text color */
+}
+
+article p:last-child {
+	color: red;
+}
+
+
+ul li {
+	width: 50%;
+	padding: 10px;
+	background-color: gray;
+}
+
+/* Set alternate colors */
+ul li:nth-child(odd) {
+	background-color: white;
+}
+
+/* First and Last items */
+ul li:first-child, ul li:last-child {
+	font-size: 22px;
+}
+
+/* Third-to-last item */
+ul li:nth-last-child(3) {
+	background-color: pink;
+}
